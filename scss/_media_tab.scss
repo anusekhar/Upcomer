@@ -1,0 +1,149 @@
+@media (max-width :1023px) {
+    body {
+        font-family: Asap;
+    }
+    header {
+        position: fixed;
+        padding-bottom: 10px;
+        height: 80px;
+        width: 100%;
+        background-color: #fff;
+        z-index: 999;
+        border-bottom: 1px solid #f5f5f5;
+        .header_container {
+            position: relative;
+            height: 100%;
+            width: 87%;
+            margin: auto;
+            text-align: center;
+            margin-top: 30px;
+            .header_nav {
+                font-size: 18px;
+                font-weight: bold;
+                position: absolute;
+                top: 10px;
+                a {
+                    text-decoration: none;
+                    color: #999;
+                    padding: 10px;
+                    strong {
+                        color: #333;
+                    }
+                }
+            }
+            .social_icons_head {
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+        }
+    }
+    main {
+        position: relative;
+        top: 90px;
+        width: 100%;
+        margin: auto;
+        .container_1 {
+            width: 87%;
+            margin: auto;
+            .content_1 {
+                // margin-right: 50%;
+                text-align: center;
+                h2 {
+                    font-size: 36px;
+                    font-weight: bold;
+                    padding: 10px;
+                    color: #333;
+                }
+                p {
+                    font-size: 20px;
+                    color: #999;
+                    padding: 10px;
+                    line-height: 1.5;
+                }
+            }
+            img {
+                // position: absolute;
+                // top: 10px;
+                // right: 100px;
+                margin-left: 30%;
+            }
+        }
+        .container_2 {
+            position: relative;
+            background-color: #f5f5f5;
+            width: 100%;
+            .container_wrapper {
+                padding-top: 30px;
+                margin-left: 95px;
+                border-left: 7px solid #FFF;
+                .content_list {
+                    width: 87%;
+                    margin: auto;
+                    .list_left {
+                        width: 80%;
+                        margin: 20px;
+                        // border-left: 7px solid #fff;
+                    }
+                    .list_right {
+                        width: 80%;
+                        margin: 20px;
+                    }
+                    .content {
+                        background-color: #fff;
+                        border-radius: 10px;
+                        h2 {
+                            font-weight: bold;
+                            font-size: 22px;
+                            color: #333;
+                            padding: 10px;
+                        }
+                        p {
+                            font-size: 20px;
+                            color: #999;
+                            padding: 10px;
+                        }
+                    }
+                    .tool_tip {
+                        float: left;
+                        margin-left: -3%;
+                        margin-top: -10%;
+                        border-bottom: 15px solid transparent;
+                        border-top: 15px solid transparent;
+                        border-right: 20px solid #fff;
+                    }
+                    .circle {
+                        width: 40px;
+                        height: 40px;
+                        background-color: #ffc3bd;
+                        border-radius: 50%;
+                        float: left;
+                        margin-left: -16.4%;
+                        margin-top: -10%;
+                    }
+                }
+            }
+        }
+        .circle_2014 {
+            font-family: Asap;
+            position: absolute;
+            top: -75px;
+            left: 40px;
+            width: 100px;
+            height: 100px;
+            border: 7px solid #fff;
+            border-radius: 50%;
+            background-color: black;
+            color: #999;
+            font-size: 20px;
+            margin: auto;
+            background-color: #f5f5f5;
+            text-align: center;
+            span {
+                float: left;
+                margin: 30%;
+                margin-top: 40%;
+            }
+        }
+    }
+}
