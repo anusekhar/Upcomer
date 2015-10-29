@@ -38,8 +38,8 @@
             }
         }
     }
-    position: relative;
     main {
+        position: relative;
         top: 90px;
         width: 100%;
         margin: auto;
@@ -125,65 +125,24 @@
             // background-color: #f5f5f5;
         }
         .content_list {
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: row;
-            margin: auto;
-            .list_left {
-                width: 41%;
+                position: relative;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                margin: auto;
+                .list_left {
+                    width: 41%;
+                    position: relative;
+                    // display: inline-block;
+                    border-right: 7px solid #fff;
 
-                // display: inline-block;
-                border-right: 7px solid #fff;
-
-                // float: left;
-                padding: 2%;
-                padding-right: 5%;
-                .content {
-                    background-color: #fff;
-                    border-radius: 10px;
-                }
-                h2 {
-                    font-weight: bold;
-                    font-size: 22px;
-                    color: #333;
-                    padding: 10px;
-                }
-                p {
-                    font-size: 20px;
-                    color: #999;
-                    padding: 10px;
-                }
-                .tool_tip {
-                    float: right;
-                    margin-right: -4%;
-                    margin-top: -15%;
-                    border-bottom: 15px solid transparent;
-                    border-top: 15px solid transparent;
-                    border-left: 20px solid #fff;
-                }
-                .circle {
-                    width: 40px;
-                    height: 40px;
-                    background-color: #ffc3bd;
-                    border-radius: 50%;
-                    float: right;
-                    margin-right: -18%;
-                    margin-top: -15%;
-                }
-            }
-            .list_right {
-                width: 41%;
-                margin-top: 110px;
-                background-color: #f5f5f5;
-
-                // border-left: 2px solid black;
-                // float: right;
-                padding: 2%;
-                padding-left: 7%;
-                display: inline-block;
-                .content {
-                    background-color: #fff;
-                    border-radius: 10px;
+                    // float: left;
+                    padding: 2%;
+                    padding-right: 5%;
+                    .content {
+                        background-color: #fff;
+                        border-radius: 10px;
+                    }
                     h2 {
                         font-weight: bold;
                         font-size: 22px;
@@ -195,34 +154,80 @@
                         color: #999;
                         padding: 10px;
                     }
+                    .tool_tip {
+                        position: absolute;
+                        float: right;
+                        right: 32px;
+                        margin-top: -15%;
+                        border-bottom: 15px solid transparent;
+                        border-top: 15px solid transparent;
+                        border-left: 20px solid #fff;
+                    }
+                    .circle {
+                        position: absolute;
+                        width: 40px;
+                        height: 40px;
+                        background-color: #ffc3bd;
+                        border-radius: 50%;
+                        right: -23px;
+                        margin-top: -19%;
+                    }
                 }
-                .tool_tip {
-                    float: left;
-                    margin-left: -4%;
-                    margin-top: -15%;
-                    border-bottom: 15px solid transparent;
-                    border-top: 15px solid transparent;
-                    border-right: 20px solid #fff;
+                .list_right {
+                    width: 41%;
+                    margin-top: 110px;
+                    position: relative;
+                    background-color: #f5f5f5;
+
+                    // border-left: 2px solid black;
+                    // float: right;
+                    padding: 2%;
+                    padding-left: 7%;
+                    display: inline-block;
+                    .content {
+                        background-color: #fff;
+                        border-radius: 10px;
+                        h2 {
+                            font-weight: bold;
+                            font-size: 22px;
+                            color: #333;
+                            padding: 10px;
+                        }
+                        p {
+                            font-size: 20px;
+                            color: #999;
+                            padding: 10px;
+                        }
+                    }
+                    .tool_tip {
+                        position: absolute;
+                        float: left;
+                        margin-left: -4%;
+                        margin-top: -15%;
+                        border-bottom: 15px solid transparent;
+                        border-top: 15px solid transparent;
+                        border-right: 20px solid #fff;
+                    }
+                    .circle {
+                        position: absolute;
+                        width: 40px;
+                        height: 40px;
+                        background-color: #ffc3bd;
+                        border-radius: 50%;
+                        left: -23px;
+                        margin-top: -18%;
+                    }
                 }
-                .circle {
-                    width: 40px;
-                    height: 40px;
-                    background-color: #ffc3bd;
-                    border-radius: 50%;
-                    float: left;
-                    margin-left: -22.5%;
-                    margin-top: -15%;
+                #last_div {
+                    padding-bottom: 100px;
                 }
-            }
-            #last_div {
-                padding-bottom: 100px;
-            }
             }
         .section_2 {
             font-family: Asap;
             width: 87%;
             margin: auto;
             text-align: center;
+            padding-bottom: 20px;
             .content_2 {
                 padding-bottom: 25px;
                 h2 {
@@ -239,14 +244,46 @@
             }
             .button {
                 margin-top: 20px;
-                width: 450px;
+                width: 350px;
                 margin: auto;
                 font-size: 20.3px;
                 padding: 20px;
                 border-radius: 30px;
-                background-color: #2ECC71;
+                background-color: #2ecc71;
                 color: #fff;
             }
+        }
+        .hashtagLoader {
+            width: 100%;
+            background-color: #333;
+            .tag_content {
+                color: #fff;
+                text-align: center;
+                p {
+                    position: relative;
+                    top: -130px;
+                    left: -80px;
+                    display: inline-block;
+                    font-family: 'Asap', sans-serif;
+                    font-size: 48px;
+                    font-weight: 700;
+                }
+                img {
+
+                }
+            }
+        }
+
+    }
+    footer {
+        width: 100%;
+        position: relative;
+        top: -22px;
+        text-align: center;
+        margin-top: 136px;
+        img:hover {
+            cursor: pointer;
+            opacity: 0.8;
         }
     }
 }
