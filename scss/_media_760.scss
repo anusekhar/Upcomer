@@ -97,3 +97,21 @@
         }
     }
 }
+    @media (max-width : 690px) {
+    .hashtagLoader {
+        position: relative;
+        height: auto;
+        .tag_content {
+            img {
+                height: 160px !important;
+                width: 150px !important;
+            }
+            p {
+                position: absolute;
+                top: -73px !important;
+                left: -67px !important;
+                font-size: 30px !important;
+            }
+        }
+    }
+}
