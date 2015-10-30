@@ -98,6 +98,10 @@
     }
 }
     @media (max-width : 690px) {
+        .email-bar {
+            width: 80% !important;
+            margin: auto;
+        }
     .hashtagLoader {
         position: relative;
         height: auto;

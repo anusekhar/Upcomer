@@ -41,6 +41,21 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+body {
+  max-width: 1200px;
+  margin: auto; }
+
+header {
+  max-width: 1200px;
+  margin: auto; }
+  header img {
+    cursor: pointer; }
+  header .social_icons_head img {
+    cursor: pointer;
+    opacity: 0.8; }
+    header .social_icons_head img:hover {
+      opacity: 1; }
+
 main .subscriber-section {
   background-image: url("../images/bg1_repeat.png");
   width: 100%; }
@@ -78,7 +93,8 @@ main .subscriber-section {
         opacity: 0.3;
         width: 217px;
         font-family: 'Asap', sans-serif;
-        font-size: 20.3px; }
+        font-size: 20.3px;
+        outline: none; }
       main .subscriber-section .content form.email-bar input[type=submit] {
         position: relative;
         border-top-right-radius: 60px;
@@ -179,6 +195,7 @@ main .subscriber-footer {
         padding: 8px 0 9px 45px;
         opacity: 0.3;
         width: 217px;
+        outline: none;
         font-family: 'Asap', sans-serif;
         font-size: 20.3px; }
       main .subscriber-footer .content form.email-bar input[type=submit] {
@@ -251,6 +268,20 @@ main .about-section-2 {
     font-size: 20px;
     color: #999;
     padding-bottom: 20px; }
+main #ok_btn {
+  cursor: pointer; }
+  main #ok_btn:hover {
+    opacity: 0.8; }
+main .button {
+  cursor: pointer; }
+  main .button:hover {
+    opacity: 0.8; }
+
+footer img {
+  cursor: pointer;
+  opacity: 0.6; }
+  footer img:hover {
+    opacity: 1; }
 
 @media (min-width: 1024px) {
   body {
@@ -754,6 +785,10 @@ main .about-section-2 {
   header .social_icons_head {
     display: none; } }
 @media (max-width: 690px) {
+  .email-bar {
+    width: 80% !important;
+    margin: auto; }
+
   .hashtagLoader {
     position: relative;
     height: auto; }
