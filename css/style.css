@@ -56,16 +56,14 @@ header {
     header .social_icons_head img:hover {
       opacity: 1; }
 
-main .content_list .circle {
-  background-color: #E74C3C; }
 main .content_list #circle_1 {
-  opacity: .2; }
+  background-color: #ffc3bd; }
 main .content_list #circle_2 {
-  opacity: .4; }
+  background-color: #fa9d93; }
 main .content_list #circle_3 {
-  opacity: .6; }
+  background-color: #ed8074; }
 main .content_list #circle_4 {
-  opacity: .8; }
+  background-color: #ec675a; }
 main .subscriber-section {
   background-image: url("../images/bg1_repeat.png");
   width: 100%; }
