@@ -19,6 +19,25 @@ body {
     }
 }
 main {
+    .content_list {
+        .circle {
+
+            background-color: #E74C3C;
+            
+        }
+        #circle_1 {
+            opacity: .2;
+        }
+        #circle_2 {
+            opacity: .4;
+        }
+        #circle_3 {
+            opacity: .6;
+        }
+        #circle_4 {
+            opacity: .8;
+        }
+    }
     .subscriber-section {
         background-image: url("../images/bg1_repeat.png");
         width: 100%;
