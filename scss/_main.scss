@@ -1,3 +1,23 @@
+
+body {
+    max-width: 1200px;
+    margin: auto;
+}header {
+    max-width: 1200px;
+    margin: auto;
+    img {
+        cursor: pointer;
+    }
+    .social_icons_head {
+        img {
+            cursor: pointer;
+            opacity: 0.8;
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+}
 main {
     .subscriber-section {
         background-image: url("../images/bg1_repeat.png");
@@ -42,6 +62,7 @@ main {
                     width: 217px;
                     font-family: 'Asap', sans-serif;
                     font-size: 20.3px;
+                    outline: none;
                 }
                 input[type=submit] {
                     position: relative;
@@ -168,6 +189,7 @@ main {
                     padding: 8px 0 9px 45px;
                     opacity: 0.3;
                     width: 217px;
+                    outline: none;
                     // color: #fff;
                     font-family: 'Asap', sans-serif;
                     font-size: 20.3px;
@@ -264,6 +286,27 @@ main {
                 color: #999;
                 padding-bottom: 20px;
             }
+        }
+    }
+    #ok_btn {
+        cursor: pointer;
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+    .button {
+        cursor: pointer;
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+}
+footer {
+    img {
+        cursor: pointer;
+        opacity: 0.6;
+        &:hover {
+            opacity: 1;
         }
     }
 }
