@@ -56,6 +56,16 @@ header {
     header .social_icons_head img:hover {
       opacity: 1; }
 
+main .content_list .circle {
+  background-color: #E74C3C; }
+main .content_list #circle_1 {
+  opacity: .2; }
+main .content_list #circle_2 {
+  opacity: .4; }
+main .content_list #circle_3 {
+  opacity: .6; }
+main .content_list #circle_4 {
+  opacity: .8; }
 main .subscriber-section {
   background-image: url("../images/bg1_repeat.png");
   width: 100%; }
@@ -427,10 +437,9 @@ footer img {
           position: absolute;
           width: 40px;
           height: 40px;
-          background-color: #ffc3bd;
           border-radius: 50%;
           right: -23px;
-          margin-top: -19%; }
+          margin-top: -16%; }
       main .content_list .list_right {
         width: 41%;
         margin-top: 110px;
@@ -463,10 +472,9 @@ footer img {
           position: absolute;
           width: 40px;
           height: 40px;
-          background-color: #ffc3bd;
           border-radius: 50%;
           left: -23px;
-          margin-top: -18%; }
+          margin-top: -16%; }
       main .content_list #last_div {
         padding-bottom: 100px; }
     main .section_2 {
