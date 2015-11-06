@@ -48,6 +48,8 @@
                 img {
                     margin-top: 150px;
                     width: 80%;
+                    margin-left: 10%;
+                    margin-right: 10%;
                     height: auto;
                 }
             }
@@ -62,6 +64,11 @@
                     display: block;
                     text-align: center;
                 }
+            }
+        }
+        .subscriber-footer {
+            .content {
+                width: 80%;
             }
         }
         .hashtagLoader {
@@ -97,11 +104,20 @@
         }
     }
 }
-    @media (max-width : 690px) {
-        .email-bar {
-            width: 80% !important;
-            margin: auto;
+@media (max-width : 690px) {
+    .email-bar {
+        input[type=email] {
+            width: 59% !important;
+            height: 30px !important;
+            font-size: 16.3px !important;
+            padding: 7px 0 7px 18px !important;
         }
+        input[type=submit] {
+            width: 55px !important;
+            height: 44px !important;
+            font-size: 16.3px !important;
+        }
+    }
     .hashtagLoader {
         position: relative;
         height: auto;

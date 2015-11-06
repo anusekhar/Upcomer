@@ -1,3 +1,9 @@
+::-webkit-input-placeholder {
+   color:#fff;
+}
+::-moz-placeholder {
+   color: #fff;
+}
 
 body {
     max-width: 1200px;
@@ -67,16 +73,18 @@ main {
                     border: none;
                     border-style: none;
                     border-color: transparent;
+                    color: #FFF;
                 }
                 input[type=email] {
                     border-top-left-radius: 60px;
                     border-bottom-left-radius: 60px;
-                    height: 43px;
-                    padding: 8px 0 9px 45px;
+                    height: 44px;
+                    padding: 8px 0 8px 45px;
                     opacity: 0.3;
                     width: 217px;
                     font-family: 'Asap', sans-serif;
                     font-size: 20.3px;
+                    background-color: #EE8277;
                     outline: none;
                 }
                 input[type=submit] {
@@ -196,16 +204,17 @@ main {
                     border: none;
                     border-style: none;
                     border-color: transparent;
+                    color: #fff;
                 }
                 input[type=email] {
                     border-top-left-radius: 60px;
                     border-bottom-left-radius: 60px;
-                    height: 43px;
-                    padding: 8px 0 9px 45px;
+                    height: 44px;
+                    padding: 8px 0 8px 45px;
                     opacity: 0.3;
                     width: 217px;
                     outline: none;
-                    // color: #fff;
+                    background-color: #EE8277;
                     font-family: 'Asap', sans-serif;
                     font-size: 20.3px;
                 }

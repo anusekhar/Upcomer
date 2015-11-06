@@ -31,8 +31,8 @@
                 <h2>Stay updated on upcoming tech products you love</h2>
                 <p>We made it a whole lot easier for you to always stay updated on all upcoming products you care about</p>
                 <p>..so be the first to try upcomer</p>
-                <form class="email-bar">
-                    <input type="email" placeholder="Enter your email">
+                <form class="email-bar" onsubmit="return formSubmit()">
+                    <input id="email" type="email" placeholder="Enter your email">
                     <input id="ok_btn" type="submit" value="Ok">
                 </form>
                 <span>Coming to Android and iOS early 2015</span>
@@ -55,20 +55,20 @@
                 </div>
             </div>
             <div class="slot right">
-                <img src="images/illustration2.png" alt="Illustration Two">
                 <div class="description">
                     <h2>Be the first to know</h2>
                     <p>Get push notifications when a major event happens, such as when a new product is announced, beta sign up is possible, or a product is available for purchase</p>
                 </div>
+                <img src="images/illustration2.png" alt="Illustration Two">
             </div>
         </div>
         <div class="subscriber-footer">
             <div class="content">
                 <p>The first 5000 people to signup will get an "<b>early adopter priority</b>" for 6 months which gives you a higher priority when we give away brand new products</p>
                 <p class="try">Be the first to try Upcomer!</p>
-                <form class="email-bar">
-                    <input type="email" placeholder="Enter your email">
-                    <input id="ok_btn" type="submit" value="Ok">
+                <form class="email-bar" onsubmit="return formSubmit_footer()">
+                    <input id="email_footer" type="email" placeholder="Enter your email">
+                    <input id="ok_btn_footer" type="submit" value="Ok">
                 </form>
                 <span>Coming to Android and iOS early 2015</span>
             </div>

@@ -41,6 +41,12 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+::-webkit-input-placeholder {
+  color: #fff; }
+
+::-moz-placeholder {
+  color: #fff; }
+
 body {
   max-width: 1200px;
   margin: auto; }
@@ -92,16 +98,18 @@ main .subscriber-section {
       main .subscriber-section .content form.email-bar input {
         border: none;
         border-style: none;
-        border-color: transparent; }
+        border-color: transparent;
+        color: #FFF; }
       main .subscriber-section .content form.email-bar input[type=email] {
         border-top-left-radius: 60px;
         border-bottom-left-radius: 60px;
-        height: 43px;
-        padding: 8px 0 9px 45px;
+        height: 44px;
+        padding: 8px 0 8px 45px;
         opacity: 0.3;
         width: 217px;
         font-family: 'Asap', sans-serif;
         font-size: 20.3px;
+        background-color: #EE8277;
         outline: none; }
       main .subscriber-section .content form.email-bar input[type=submit] {
         position: relative;
@@ -195,15 +203,17 @@ main .subscriber-footer {
       main .subscriber-footer .content form.email-bar input {
         border: none;
         border-style: none;
-        border-color: transparent; }
+        border-color: transparent;
+        color: #fff; }
       main .subscriber-footer .content form.email-bar input[type=email] {
         border-top-left-radius: 60px;
         border-bottom-left-radius: 60px;
-        height: 43px;
-        padding: 8px 0 9px 45px;
+        height: 44px;
+        padding: 8px 0 8px 45px;
         opacity: 0.3;
         width: 217px;
         outline: none;
+        background-color: #EE8277;
         font-family: 'Asap', sans-serif;
         font-size: 20.3px; }
       main .subscriber-footer .content form.email-bar input[type=submit] {
@@ -760,6 +770,8 @@ footer img {
     main .content-2 .slot img {
       margin-top: 150px;
       width: 80%;
+      margin-left: 10%;
+      margin-right: 10%;
       height: auto; }
   main .content-2 .left h2,
   main .content-2 .left p,
@@ -771,6 +783,8 @@ footer img {
   main .content-2 .right img {
     display: block;
     text-align: center; }
+  main .subscriber-footer .content {
+    width: 80%; }
   main .hashtagLoader {
     height: auto; }
     main .hashtagLoader .content img {
@@ -791,9 +805,15 @@ footer img {
   header .social_icons_head {
     display: none; } }
 @media (max-width: 690px) {
-  .email-bar {
-    width: 80% !important;
-    margin: auto; }
+  .email-bar input[type=email] {
+    width: 59% !important;
+    height: 30px !important;
+    font-size: 16.3px !important;
+    padding: 7px 0 7px 18px !important; }
+  .email-bar input[type=submit] {
+    width: 55px !important;
+    height: 44px !important;
+    font-size: 16.3px !important; }
 
   .hashtagLoader {
     position: relative;
